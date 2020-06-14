@@ -124,6 +124,7 @@
                     android:inputType="textPassword"
                     android:paddingLeft="@dimen/_10sdp"
                     android:singleLine="true"
+                    android:text="bvduih"
                     android:padding="@dimen/_10sdp"
                     android:textColor="#000"
                     android:textColorHint="#000"
@@ -161,7 +162,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Don't have account?"
+        android:text="Don't have account? "
         android:textSize="@dimen/_13sdp"
         />
         <TextView

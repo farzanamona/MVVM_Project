@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">MVVM Project-1</string>
+    <string name="profile">Profile</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="Settings">Settings</string>
+    <string name="logout">Log out</string>
 </resources>
