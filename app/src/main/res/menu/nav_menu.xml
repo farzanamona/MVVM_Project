@@ -1,16 +1,19 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_Result"
+            android:id="@+id/nav_profile"
             android:icon="@drawable/ic_account_circle_black_24dp"
             android:title="@string/profile" />
-
         <item
-            android:id="@+id/nav_exam"
+            android:id="@+id/nav_update_profile"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="Update Profile" />
+        <item
+            android:id="@+id/nav_settings"
             android:icon="@drawable/ic_account_circle_black_24dp"
             android:title="@string/Settings" />
         <item
-            android:id="@+id/nav_onusuchi"
+            android:id="@+id/nav_logout"
             android:icon="@drawable/ic_account_circle_black_24dp"
             android:title="@string/logout" />
 

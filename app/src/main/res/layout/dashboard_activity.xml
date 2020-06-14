@@ -50,6 +50,7 @@
                     app:civ_border_width="2dp"/>
 
               <TextView
+                  android:id="@+id/tvFullName"
                   android:layout_width="wrap_content"
                   android:layout_height="wrap_content"
                   android:text="Farzana Aktar"
@@ -59,6 +60,7 @@
                   android:layout_gravity="center"
                   />
                 <TextView
+                    android:id="@+id/tvEmail"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="farzana2mona@gmail.com"
@@ -80,6 +82,7 @@
                           android:layout_gravity="center"
                           />
                       <TextView
+                          android:id="@+id/tvPhone"
                           android:layout_width="wrap_content"
                           android:layout_height="wrap_content"
                           android:text="0165645624564"
@@ -103,6 +106,7 @@
                         android:layout_gravity="center"
                         />
                     <TextView
+                        android:id="@+id/tvAddress"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Address"
