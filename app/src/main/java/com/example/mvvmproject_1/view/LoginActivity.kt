@@ -25,7 +25,7 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.login_activity)
         val loginActivityViewModel: LoginActivityViewModel = ViewModelProvider(this).get<LoginActivityViewModel>(LoginActivityViewModel::class.java)
-
+        context=this
         btnSignin = findViewById(R.id.btnSignin)as AppCompatButton
         etEmail = findViewById(R.id.etEmail)as EditText
         etPass = findViewById(R.id.etPass)as EditText

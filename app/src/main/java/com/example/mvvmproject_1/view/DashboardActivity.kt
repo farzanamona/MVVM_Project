@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
+import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
@@ -31,7 +32,7 @@ class DashboardActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.dashboard_activity)
         val dashboardActivityViewModel: DashboardActivityViewModel = ViewModelProvider(this).get<DashboardActivityViewModel>(DashboardActivityViewModel::class.java)
-
+        context=this
         toolbar = findViewById(R.id.toolbar)as Toolbar
         drawerLayout = findViewById(R.id.drawerLayout)as DrawerLayout
 
@@ -68,7 +69,7 @@ class DashboardActivity : AppCompatActivity() {
         navigationView.setNavigationItemSelectedListener{
             when (it.itemId){
                 R.id.nav_profile-> {
-                    startActivity(Intent(context,MainActivity::class.java))
+                    startActivity(Intent(context,EditProfileActivity::class.java))
                     drawerLayout!!.closeDrawer(GravityCompat.START)
                 }
 

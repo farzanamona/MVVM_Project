@@ -23,7 +23,7 @@ class RegisterActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.register_activity)
         //val registerActivityViewModel: RegisterActivityViewModel = ViewModelProvider(this).get<RegisterActivityViewModel>(RegisterActivityViewModel::class.java)
-
+        context = this
         etFullName = findViewById(R.id.etFullName) as EditText
         etEmail = findViewById(R.id.etEmail) as EditText
         etPhone = findViewById(R.id.etPhone) as EditText
